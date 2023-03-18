@@ -1,0 +1,138 @@
+body {
+    background: #FFFFFF;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    margin:0 auto;
+}
+
+
+header img {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+
+header {
+    text-align: center;
+    font-size: 30px;
+    background: rgb(185,185,185);
+    background: -moz-linear-gradient(top, rgb(185,185,185) 0%, rgb(255,255,255) 100%);
+    background: -webkit-linear-gradient(top, rgb(185,185,185) 0%, rgb(255,255,255) 100%);
+    background: linear-gradient(to bottom, rgb(185,185,185) 0%, rgb(255,255,255) 100%);
+    padding: 50px;
+}   
+
+p.strapline {
+    font-style: italic;
+    font-size: smaller;
+}
+
+nav {
+    font-size: 20px;
+}   
+
+/* nav img {
+
+} */
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    padding: 2em;
+    display: inline-block;
+    text-transform: uppercase;
+    /* border: black 2px solid; */
+}
+
+li a {
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    text-decoration: none;
+    color: #555;
+}
+
+li a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+div.container {
+    width: 90%;
+    max-width: 1400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+main {
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: black 2px solid; */
+
+}
+
+aside {
+    max-width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: black 2px solid; */
+
+}
+
+aside img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+div.slideshow {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: black 2px solid; */
+    padding: 2em;
+}
+
+div.slideshow img {
+    max-width: 75%;
+    padding: 2em;
+    /* border: black 2px solid; */
+    margin-left: 10%;
+    margin-right: 10%;
+    -webkit-box-shadow: 5px 5px 15px 5px #ccc; 
+    box-shadow: 5px 5px 15px 5px #ccc;
+    background-color: #fff
+}
+
+p.feature {
+    text-align: center;
+    font-size: larger;
+    font-variant-caps: small-caps; 
+}
+
+footer {
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    width: 80%;
+    margin: top 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    border-top: 1px solid black;
+}
+
+/* === MEDIA QUERIES === */
+
+/* @media screen and (max-width: 600px) { 
+    * {background-color: blue;}
+} */
